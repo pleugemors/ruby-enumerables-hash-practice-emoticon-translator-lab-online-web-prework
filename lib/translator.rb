@@ -10,14 +10,13 @@ def load_library(path_name)
   emoticons.each do |key, value|
     ret_hash['get_meaning'][value[1]]= key
     ret_hash['get_emoticon'][value[0]] = value[1]
-    puts ret_hash  
-    puts "next"
   end
   ret_hash
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(w_emoticon)
   # code goes here
+  
 end
 
 def get_english_meaning
