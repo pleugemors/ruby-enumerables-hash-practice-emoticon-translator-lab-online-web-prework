@@ -7,6 +7,8 @@ def load_library(path_name)
   ret_hash = {}
   ret_hash['get_meaning']= {}
   ret_hash['get_emoticon']= {}
+  puts ret_hash
+  ret_hash
   
   
 end
