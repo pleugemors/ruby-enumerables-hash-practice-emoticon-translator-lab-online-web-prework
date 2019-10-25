@@ -12,7 +12,7 @@ def load_library(path_name)
   emoticons.each do |key, value|
     
   end
-  put emoticons
+  puts emoticons
   
 end
 
