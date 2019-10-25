@@ -10,8 +10,11 @@ def load_library(path_name)
   puts ret_hash
   ret_hash
   emoticons.each do |key, value|
-    puts value[0]  
+    ret_hash['get_meaning'][value[1]]= key
+    ret_hash['get_emoticon'][value[0]] = value[1]
+    puts ret_hash  
     puts "next"
+    ret_hash
   end
   
 end
