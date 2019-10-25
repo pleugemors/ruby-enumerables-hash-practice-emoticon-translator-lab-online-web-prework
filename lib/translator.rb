@@ -10,7 +10,7 @@ def load_library(path_name)
   puts ret_hash
   ret_hash
   emoticons.each do |key, value|
-    puts value  
+    puts value[0]  
     puts "next"
   end
   
