@@ -3,7 +3,7 @@
 def load_library
   # code goes here
   require 'yaml'
-  thing = YAML.load_file('emoticons.yml')
+  thing = YAML.load_library('emoticons.yml')
   puts thing.inspect
 end
 
