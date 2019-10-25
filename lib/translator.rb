@@ -24,6 +24,12 @@ def get_japanese_emoticon(file_path, w_emoticon)
   end
 end
 
-def get_english_meaning
+def get_english_meaning(file_path, j_emoticon)
   # code goes here
+  emot = load_library(file_path)
+  if emot['get_meaning'][j_emoticon]
+    emot['get_meaning'][j_emoticon]
+  else
+    "Sorry, that emoticon does not exist"
+  end
 end
