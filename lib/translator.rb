@@ -30,6 +30,6 @@ def get_english_meaning(file_path, j_emoticon)
   if emot['get_meaning'][j_emoticon]
     emot['get_meaning'][j_emoticon]
   else
-    "Sorry, that emoticon does not exist"
+    "Sorry, that emoticon was not found"
   end
 end
