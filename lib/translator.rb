@@ -3,7 +3,7 @@ require 'yaml'
 
 def load_library
   # code goes here
-  emoticons = YAML.load_library('emoticons.yml')
+  emoticons = YAML.load_library("./lib/")
   puts emoticons.inspect
 end
 
