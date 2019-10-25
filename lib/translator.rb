@@ -5,8 +5,8 @@ def load_library(path_name)
   # code goes here
   emoticons = YAML.load_file(path_name)
   ret_hash = {}
-  ret_hash["get_meaning"]= {}
-  ret_hash["get_emoticon"]= {}
+  ret_hash['get_meaning']= {}
+  ret_hash['get_emoticon']= {}
   puts ret_hash
   
 end
